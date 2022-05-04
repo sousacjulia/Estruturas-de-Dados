@@ -1,0 +1,31 @@
+----------------------------------ATIVIDADE 2 --------------------------------
+
+1.	Desenvolva a estrutura de uma Árvore Binaria de Busca e seus respectivos métodos (inserção, remoção, consulta). 
+2.	Além disso implemente os métodos de Pré-Ordem, Ordem e Pós-Ordem;
+----------------------------------------------------------------------
+
+---> Para cada no n da árvore, todos os valores armazenados á esquerda são menores que o valor v armazenado em n, e todos os valores armazenados na sub-árvore á direita são maiores ou iguais a v.
+---> Para cada nó, partindo da raiz, compare a chave a ser localizada com o valor armazenado no nó correntemente apontado. Se a chave for menor que o valor, vá para a sub-árvore à esquerda e tente novamente. Se for maior que o valor, tente a sub-árvore à direita. Se for o mesmo, a busca poderá parar. A busca também é abortada se não há meios de continuar, indicando que a chave não está na árvore. 
+
+Elementos
+•	Nós - são todos os itens guardados na árvore
+•	Raiz - é o nó do topo da árvore 
+•	Filhos - são os nós que vem depois dos outros nós 
+•	Pais - são os nós que vem antes dos outros nós 
+•	Folhas - são os nós que não têm filhos; são os últimos nós da árvore 
+
+Árvores Binárias são umas das estruturas de dados de extrema importância devido a grande aplicabilidade delas; A maioria dos algoritmos de arvores binarias são de facil entendimento, facilitando o desenvolvimento de sistemas.
+---------------------------------------------------------------------------
+1.	Quando esses métodos são utilizados?
+Codificação de Huffman = compressão e descompressão de arquivos; Programas como Winzip e WinRAR utilizam desse algoritmo;
+
+2.	Complexidade dos métodos;
+---> Uma árvore binária é perfeitamente balanceada quando, além de ser balanceada, todas as suas folhas encontram-se em um ou dois níveis.
+A complexidade das operações sobre ABB depende diretamente da altura da árvore.
+---> Uma árvore binária de busca com chaves aleatórias uniformemente distribuídas tem altura O (log n).
+No pior caso, uma ABB poderá ter altura O(n). Neste caso a árvore é chamada de árvore zig-zag e corresponde a uma degeneração da árvore em lista encadeada.
+Em função da observação anterior, a árvore binária de busca é de pouca utilidade para ser aplicada em problemas de busca em geral. Daí o interesse em árvores balanceadas, cuja altura seja O (log n) no pior caso.
+
+3.	A relação entre Árvore Binária e lista ligada?
+---> Lista ligada é um arvore degenerada = onde seus nós folhas internos estão no mesmo nivel(lineares);
+---> Uma arvore binaria é uma estrutura de dados mais geral que uma lista encadeada, é a divisão de um conjunto de dados em subconjuntos;

@@ -1,0 +1,33 @@
+------------------Atividade 1--------------------------------------
+-------------------------------------------------------------------
+* Qual a relação entre lista, pilha e ponteiros?
+* Qual a necessidade de trabalhar com ponteiros?
+* Qual a complexidade dos seus métodos?
+
+--------------------Lista Ligada------------------------------------
+--->  Uma sequência de nós, no qual cada nó contém um arco direcionando para o no seguinte; 
+
+--->  Cada nó armazena a localização do proximo nó;
+
+-->  Normalmente há um ou dois pontos conhecidos de acesso, o topo da lista (seu primeiro elemento) e eventualmente o fim da lista (seu último elemento);
+
+---> a estrutura de lista representa a ordem linear entre os elementos. Listas podem ser homogêneas ou heterogêneas, lineares ou não lineares.
+
+--------------------Pilha------------------------------------
+----> Uma pilha pode ser definida como uma lista com restrições de acesso, onde todas as operações só podem ser aplicadas sobre uma das extremidades da lista, denominado TOPO DA PILHA;
+
+-->LIFO – Last In First Out (último a entrar, primeiro a sair);
+Ex.: pilha de pratos
+
+---> Cada item(objeto) adicionado terá uma referência ao próximo item, que no caso é o que está no topo antes deste ser adicionado.
+
+--->  Não tem limite de tamanho como a estática, basta que cada elemento saiba quem é o próximo.
+
+--->  Uma pilha pode ser armazenada em uma lista simplesmente encadeada, sem perda de eficiência
+
+-----------------------------Fila------------------------------------
+---> Filas e pilhas são estruturas usualmente implementadas através de listas, restringindo a política de manipulação dos elementos da lista.
+
+---> A ordem estabelecida na lista é a ordem de inserção. No momento de retirar um nó da lista, o nó mais antigo (o primeiro que entrou) é o primeiro a ser retirado de uma fila (queue) tipicamente estabelece uma política first in, first out (FIFO) de acesso aos dados;
+
+
